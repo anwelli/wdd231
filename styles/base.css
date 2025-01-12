@@ -215,3 +215,39 @@ color: #ccc;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
     
+.resource-box-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    }
+    
+    .resource-box-1, .resource-box-2 {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Responsive design for smaller screens */
+    
+    @media (max-width: 768px) {
+    .resource-box-container {
+    flex-direction: column;
+    }
+    .resource-box-1, .resource-box-2 {
+    margin: 10px auto;
+    width: 80%;
+    }
+    }
+    
+@media (max-width: 480px) {
+    .resource-box-1, .resource-box-2 {
+    margin: 10px auto;
+    width: 90%;
+    padding: 10px;
+    }
+    }
+    
