@@ -1,85 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WDD 231: Web Frontend Development I - Azuka Anwelli Happiness</title>
-<meta name="description" content="WDD 231: Web Frontend Development I, Azuka Anwelli Happiness, web development, HTML, CSS, JavaScript">
-<meta name="author" content="Azuka Anwelli Happiness">
-<link rel="stylesheet" href="styles/base.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 231: Web Frontend Development I - Azuka Anwelli Happiness</title>
+    <meta name="description" content="WDD 231: Web Frontend Development I, Azuka Anwelli Happiness, web development, HTML, CSS, JavaScript">
+    <meta name="author" content="Azuka Anwelli Happiness">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<header>
-<img src="images/logo.jpg" alt="Logo">
-<h1>Azuka A. Happiness</h1>
-<nav>
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="#">Chamber</a></li>
-<li><a href="#">Github profile</a></li>
-<li><a href="https://www.linkedin.com/in/anwelli-azuka-269a2114b">LinkedIn</a></li>
-</ul>
-</nav>
-</header>
-<main>
-<div class="container-1">
-<div class="left-column">
-<section class="card">
-<h2 class="top-heading">Course Work</h2>
-<ul class="resource-list-1">
-<li><a href="#"> </a></li>
-<li><a href="#"> </a></li>
-<li><a href="#"></a></li>
-<li><a href="#"></a></li>
-<li><a href="#"> </a></li>
-<li><a href="#"></a></li>
-</ul>
-</section>
-</div>
-<div class="right-column">
-<section class="card">
-<h2 class="top-heading">Delta, Nigeria</h2>
-<img src="images/image2.jpeg" alt="image2">
-<h1>National Flag</h1>
-</section>
-</div>
-</div>
-<div class="container-2">
-<div class="down-column">
-<section class="card">
-<h2 class="top-heading">Web and Computer Programming Certificate</h2>
-<div class="category-container">
-<div class="category">ALL</div>
-<div class="category">CSE</div>
-<div class="category">WDD</div>
-</div>
-<div class="resource-box-container">
-<div class="resource-box-1">
-<ul>
-<li><div class="category">CSE 110</div></li>
-<li><div class="category">CSE 111</div></li>
-<li><div class="category">WDD 130</div></li>
-</ul>
-</div>
-<div class="resource-box-2">
-<ul>
-<li><div class="category">WDD131</div></li>
-<li><div class="category">WDD 231</div></li>
-<li><div class="category">CSE 210</div></li>
-</ul>
-</div>
-</div>
-</section>
-</div>
-</div>
-</main>
-<footer>
-<p>&copy; <span id="currentyear"></span> Azuka Anwelli Happiness, Delta Nigeria</p>
-<p id="lastModified"></p>
-</footer>
-<script defer src="scripts/getdates.js"></script>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/logo.jpg" alt="Logo">
+                <h1>Azuka A. Happiness</h1>
+            </div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Chamber</a></li>
+                <li><a href="#">Github profile</a></li>
+                <li><a href="https://www.linkedin.com/in/anwelli-azuka-269a2114b">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container-1">
+            <div class="left-column">
+                <section class="card">
+                    <h2 class="top-heading">Course Work</h2>
+                    <ul class="resource-list-1">
+                        <li><a href="#"> </a>Course Home page</li>
+                        <li><a href="#"> </a>Chamber Directory page</li>
+                        <li><a href="#"></a>Chamber Home Page</li>
+                        <li><a href="#"></a>Chamber Join Page</li>
+                        <li><a href="#"> </a>chamber Discover Page</li>
+                        <li><a href="#"></a>Project Completion</li>
+                    </ul>
+                </section>
+            </div>
+            <div class="right-column">
+                <section class="card">
+                    <h2 class="top-heading">Delta, Nigeria</h2>
+                    <img src="images/image2.jpeg" alt="image2">
+                    <h1>National Flag</h1>
+                </section>
+            </div>
+        </div>
+        <div class="container-2">
+            <div class="down-column">
+                <section class="card">
+                    <h2 class="top-heading">Web and Computer Programming Certificate</h2>
+                    <div class="category-container">
+                        <div class="category">ALL</div>
+                        <div class="category">CSE</div>
+                        <div class="category">WDD</div>
+                    </div>
+                    <div class="resource-box-container">
+                        <div class="resource-box-1">
+                            <ul>
+                                <li><div class="category">CSE 110</div></li>
+                                <li><div class="category">CSE 111</div></li>
+                                <li><div class="category">WDD 130</div></li>
+                            </ul>
+                        </div>
+                        <div class="resource-box-2">
+                            <ul>
+                                <li><div class="category">WDD131</div></li>
+                                <li><div class="category">WDD 231</div></li>
+                                <li><div class="category">CSE 210</div></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Azuka Anwelli Happiness, Delta Nigeria</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script defer src="scripts/getdates.js"></script>
 </body>
 </html>
