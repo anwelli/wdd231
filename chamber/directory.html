@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 231: Web Frontend Development I - Azuka Anwelli Happiness</title>
+    <meta name="description" content="WDD 231: Web Frontend Development I, Azuka Anwelli Happiness, web development, HTML, CSS, JavaScript">
+    <meta name="author" content="Azuka Anwelli Happiness">
+    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <!-- Facebook Social Media Meta Settings -->
+    <meta property="og:title" content="Chamber of Commerce Directory">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://scontent.flos2-1.fna.fbcdn.net/v/t39.30808-1/450120847_2209452242738362_7751704513856803071_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=111&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeH1PlN1wKJbOhKSavbq4wN29wn57s8qV-b3CfnuzypX5rFD0ADsLhEjkA-hXo5N_GJXO_TqgWkjTHsh5KozOgSz&_nc_ohc=qovj0pS3QywQ7kNvgHKC37T&_nc_zt=24&_nc_ht=scontent.flos2-1.fna&_nc_gid=At6pha-s73_lVuet-xIAdWg&oh=00_AYCe-9Jhmive-CNpWBDBo6JJE93j-bFgYsj_D2HQG03WdA&oe=67939EA4">
+    <meta property="og:url" content="https://anwelli/wdd231/chamber/directory.html">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/logo.jpg" alt="Logo">
+                <h1>Azuka A. Happiness</h1>
+            </div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Chamber</a></li>
+                <li><a href="#">Github profile</a></li>
+                <li><a href="https://www.linkedin.com/in/anwelli-azuka-269a2114b">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="directory-grid">
+          
+<button id="grid-button">Grid View</button>
+<button id="list-button">List View</button>
+
+            <div id="member-cards"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Azuka Anwelli Happiness, Delta Nigeria</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/directory.js"></script>
+</body>
+</html>
+

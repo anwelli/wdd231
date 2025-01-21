@@ -1,0 +1,68 @@
+[
+    {
+      "name":"Innoson Vechicle Manufacturing.",
+      "address": "No 2 Innoson Industrial Estate, Akwa-Uru, Uru Umudim, Nnewi, Anambra State.",
+      "phone": "+2347049087160",
+      "website": "https://www.innosonvehicles.com/about-ivm/",
+      "image": "ivm-logo.png",
+      "membershipLevel": 3,
+      "description": "manufacturing and sale of quality vehicles that meet our customers’ requirements or exceed their expectations and all applicable statutory and quality requirements."
+    },
+    {
+      "name": "Mitan Energy Compamy Ltd",
+      "address": "7 Evivie Close, Airport Road, Warri, 332104, Delta State, Nigeria",
+      "phone": "+234 703 189 5929",
+      "website": "https://mitanenergyltd.com/",
+      "image": "image2.png",
+      "membershipLevel": 2,
+      "description": "Mitan Energy Company Ltd, a distinguished player in the energy sector proudly serving as primary offtakers of Liquefied Petroleum Gas (LPG) from Ovade Ogharefe Gas Processing Plant. "
+    },
+    {
+      "name": "synergy International",
+      "address": "789 Oak St, Thistown, USA 34567",
+      "phone": "+234 (0) 805 700 0914 +234",
+      "website": "https://www.synergyinternationalng.com/",
+      "image": "synergy-1.png",
+      "membershipLevel": 1,
+      "description": "rovide excellent quality services to our clients without which we are out of business."
+    },
+    {
+      "name": "Midwestern Oil & Gas Company Limited",
+      "address": "10 Otunba Adedoyin Ogungbe Cres, Lekki Phase I, Lagos 106104, Lagos",
+      "phone": "+234 1 466 7480",
+      "website": "https://midwesternog.com/",
+      "image": "midwestern-Logo1.png",
+      "membershipLevel": 3,
+      "description": "Midwestern Oil & Gas Company Limited commenced its upstream activities."
+
+    },
+    {
+      "name": "Kwale Hydrocarbon Nigeria Limited (KHNL)",
+      "address": "901 Maple St, Somewhere, USA 45678",
+      "phone": "01 2704372",
+      "website": "https://khnl-ng.com/index.php",
+      "image": "logo.png",
+      "membershipLevel": 2,
+      "description": "MAKING CLEANER ENERGY MORE SUSTAINABLE."
+    },
+    {
+      "name": "Sterling Oil Exploration & Energy Production Co. Ltd.",
+      "address": "205 Abiola Segun St., Off Muri Okunola St., Victoria Island, Lagos, Nigeria.",
+      "phone": " +234 90 7000 2300",
+      "website": "https://stoilmgt.com/",
+      "image": "seepco.png",
+      "membershipLevel": 1,
+      "description": "Sterling Oil is renowned for its exemplary project management capabilities, earning a reputation for delivering projects significantly ahead of schedule."
+    },
+    {
+      "name": "Pillar Oil Limited",
+      "address": "4, Justice Rose Ukeje Street,Lekki, lagos",
+      "phone": "555-444-4444",
+      "website": "https://pillaroil.com.ng/",
+      "image": "pillaroil.png",
+      "membershipLevel": 3,
+      "description": "To be the leading independent energy company operating in a sustainable and responsible manner."
+    }
+  ]
+  
+  
