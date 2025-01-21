@@ -82,11 +82,16 @@ listViewButton.addEventListener('click', () => {
 });
 
 
-// Get the current year and display it in the footer
-const currentYear = new Date().getFullYear();
-document.getElementById("currentyear").innerHTML = currentYear;
+const lastModified = document.getElementById('last-modified');
+const date = new Date();
+const options = {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+  hour: 'numeric',
+  minute: 'numeric',
+  second: 'numeric'
+};
+lastModified.textContent = date.toLocaleDateString('en-US', options);
 
-// Get the date the document was last modified and display it in the footer
-const lastModified = new Date(document.lastModified);
-const options = { year: 'numeric', month: 'long', day: 'numeric' };
-document.getElementById("lastModified").innerHTML = "This page was last modified on: " + lastModified.toLocaleDateString('en-US', options);
+

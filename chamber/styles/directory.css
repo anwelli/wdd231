@@ -188,7 +188,58 @@ footer p {
   font-size: 14px;
 }
 
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #2a3885;
+.left-column, .right-column {
+  width: 30%;
+}
+
+.middle-column {
+  width: 40%;
+  text-align: center;
+}
+
+.social-media-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-media-icons li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.social-media-icons i {
+  font-size: 24px;
+  color: #333;
+}
+
+
+
 #lastModified {
   font-size: 12px;
   color: #ccc;
 }
+@media only screen and (max-width: 768px) {
+  .footer-container {
+  flex-direction: column;
+  align-items: center;
+  }
+  .left-column, .middle-column, .right-column {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  }
+  .middle-column ul {
+  justify-content: center;
+  }
+  .middle-column li {
+  margin-right: 0;
+  }
+  }
+  
