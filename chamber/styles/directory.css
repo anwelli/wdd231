@@ -190,9 +190,6 @@ footer p {
 
 .footer-container .left-column, .footer-container .right-column { width: 30%; }
 
-.left-column, .middle-column, .right-column { margin-bottom: 20px;}
-
-
 .middle-column {
   width: 40%;
   text-align: center;
