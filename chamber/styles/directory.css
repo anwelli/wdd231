@@ -188,16 +188,10 @@ footer p {
   font-size: 14px;
 }
 
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background-color: #2a3885;
-.left-column, .right-column {
-  width: 30%;
-}
-}
+.footer-container .left-column, .footer-container .right-column { width: 30%; }
+
+.left-column, .middle-column, .right-column { margin-bottom: 20px;}
+
 
 .middle-column {
   width: 40%;
