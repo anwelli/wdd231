@@ -5,7 +5,7 @@
       "phone": "+2347049087160",
       "website": "https://www.innosonvehicles.com/about-ivm/",
       "image": "ivm-logo.png",
-      "membershipLevel": 3,
+       "membershipLevel": "Gold",
       "description": "manufacturing and sale of quality vehicles that meet our customers’ requirements or exceed their expectations and all applicable statutory and quality requirements."
     },
     {
@@ -14,7 +14,7 @@
       "phone": "+234 703 189 5929",
       "website": "https://mitanenergyltd.com/",
       "image": "image2.png",
-      "membershipLevel": 2,
+      "membershipLevel": "Gold",
       "description": "Mitan Energy Company Ltd, a distinguished player in the energy sector proudly serving as primary offtakers of Liquefied Petroleum Gas (LPG) from Ovade Ogharefe Gas Processing Plant. "
     },
     {
@@ -23,7 +23,7 @@
       "phone": "+234 (0) 805 700 0914 +234",
       "website": "https://www.synergyinternationalng.com/",
       "image": "synergy-1.png",
-      "membershipLevel": 1,
+    "membershipLevel": "Silver",
       "description": "rovide excellent quality services to our clients without which we are out of business."
     },
     {
@@ -32,7 +32,7 @@
       "phone": "+234 1 466 7480",
       "website": "https://midwesternog.com/",
       "image": "midwestern-Logo1.png",
-      "membershipLevel": 3,
+      "membershipLevel": "Gold",
       "description": "Midwestern Oil & Gas Company Limited commenced its upstream activities."
 
     },
@@ -42,7 +42,7 @@
       "phone": "01 2704372",
       "website": "https://khnl-ng.com/index.php",
       "image": "logo.png",
-      "membershipLevel": 2,
+     "membershipLevel": "Silver",
       "description": "MAKING CLEANER ENERGY MORE SUSTAINABLE."
     },
     {
@@ -51,7 +51,7 @@
       "phone": " +234 90 7000 2300",
       "website": "https://stoilmgt.com/",
       "image": "seepco.png",
-      "membershipLevel": 1,
+    "membershipLevel": "Silver",
       "description": "Sterling Oil is renowned for its exemplary project management capabilities, earning a reputation for delivering projects significantly ahead of schedule."
     },
     {
@@ -60,9 +60,17 @@
       "phone": "555-444-4444",
       "website": "https://pillaroil.com.ng/",
       "image": "pillaroil.png",
-      "membershipLevel": 3,
+     "membershipLevel": "Silver",
       "description": "To be the leading independent energy company operating in a sustainable and responsible manner."
     }
+    
   ]
   
+     
   
+
+
+
+
+
+    

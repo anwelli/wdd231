@@ -1,0 +1,29 @@
+ [
+  {
+    "id": 1,
+    "companyName": "ABC Inc.",
+    "logo": "https://example.com/abc-logo.png",
+    "phone": "(123) 456-7890",
+    "address": "123 Main St, Anytown, USA",
+    "website": "https://www.abcinc.com",
+    "membershipLevel": "Gold"
+  },
+  {
+    "id": 2,
+    "companyName": "DEF Corporation",
+    "logo": "https://example.com/def-logo.png",
+    "phone": "(987) 654-3210",
+    "address": "456 Elm St, Othertown, USA",
+    "website": "https://www.defcorp.com",
+    "membershipLevel": "Silver"
+  },
+  {
+    "id": 3,
+    "companyName": "GHI Enterprises",
+    "logo": "https://example.com/ghi-logo.png",
+    "phone": "(555) 123-4567",
+    "address": "789 Oak St, Smalltown, USA",
+    "website": "https://www.ghi-enterprises.com",
+    "membershipLevel": "Gold"
+  }
+]
