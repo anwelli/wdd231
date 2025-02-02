@@ -436,7 +436,7 @@ footer {
     height: 100%;
     object-fit: cover;
   }
-  .button {
+  .click {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
