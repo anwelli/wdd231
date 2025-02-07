@@ -1,0 +1,375 @@
+ /* Define CSS variables */
+ :root {
+    --primary-color: #3498db; /* Blue */
+    --secondary-color: #f1c40f; /* Yellow */
+    --background-color: #f9f9f9; /* Light Gray */
+    --text-color: #333; /* Dark Gray */
+    --font-family: Arial, sans-serif;
+}
+
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-family);
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+header {
+    background-color: #392d7a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+header h1 {
+    margin-top: 0;
+    display: inline-block;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    border-bottom: 1px solid #444;
+    }
+    
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+
+
+    
+footer {
+    background-color: #2a3885;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+    border-top: 1px solid #444;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .footer-container .left-column, .footer-container .right-column { width: 30%; }
+  
+  .middle-column {
+    width: 40%;
+    text-align: center;
+  }
+  
+  .social-media-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-media-icons li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .social-media-icons i {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  
+  
+  #lastModified {
+    font-size: 12px;
+    color: #ccc;
+  }
+  .middle-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    }
+    
+    .middle-column li {
+    margin-right: 20px;
+    }
+    
+    .footer-container {
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    .left-column, .right-column {
+    width: 30%;
+    }
+    
+    @media only screen and (max-width: 768px) {
+    .footer-container {
+    flex-direction: column;
+    align-items: center;
+    }
+  }
+  .social-icon {
+    width: 50px;
+    height: 50px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  /* Form Styles */
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select,
+  textarea {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Membership Cards Styles */
+  
+  .membership-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+
+  }
+  
+  .card {
+    margin: 20px;
+    padding: 20px;
+    width: calc(33.33% - 40px);
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  
+  .card h2 {
+    margin-top: 0;
+  }
+  
+  .card p {
+    margin-bottom: 20px;
+  }
+  
+  .card a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  .card a:hover {
+    color: #23527c;
+  }
+  
+  /* Membership Levels Colors */
+  
+  .NP-Membership {
+    background-color: #C6E2B5;
+  }
+  
+  .Bronze-Membership {
+    background-color: #CD7F32;
+  }
+  
+  .Silver-Membership {
+    background-color: #B1B1B1;
+  }
+  
+  .Gold-Membership {
+    background-color: #FFD700;
+  }
+  
+  /* Responsive Design */
+  
+  @media only screen and (max-width: 768px) {
+    .card {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .card {
+      width:100%;
+}
+  }
+  
+  
+/* Modal styles */
+.modal-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+    
+    .modal-dialog {
+    margin: 20px;
+    width: calc(25% - 40px);
+    }
+    
+    #npMembershipModal .modal-content {
+    background-color: #C6E2B5; /* NP Membership color */
+    }
+    
+    #bronzeMembershipModal .modal-content {
+    background-color: #CD7F32; /* Bronze Membership color */
+    }
+    
+    #silverMembershipModal .modal-content {
+    background-color: #B1B1B1; /* Silver Membership color */
+    }
+    
+    #goldMembershipModal .modal-content {
+    background-color: #FFD700; /* Gold Membership color */
+    }
+  
+  
+  
+  
+  /* Assign colors to modals based on their names */
+  
+  #npMembershipModal .modal-content {
+    background-color: #C6E2B5; /* NP Membership color */
+  }
+  
+  #bronzeMembershipModal .modal-content {
+    background-color: #CD7F32; /* Bronze Membership color */
+  }
+  
+  #silverMembershipModal .modal-content {
+    background-color: #B1B1B1; /* Silver Membership color */
+  }
+  
+  #goldMembershipModal .modal-content {
+    background-color: #FFD700; /* Gold Membership color */
+  }
+  
+  
+/* Make the modal box responsive to mobile phones */
+
+@media only screen and (max-width: 768px) {
+  .modal-box {
+  flex-direction: column;
+  }
+  .modal-dialog {
+  width: 100%;
+  margin: 20px 0;
+  }
+  }
+  /* Make the modal box responsive to tablets and small laptops */
+
+@media only screen and (max-width: 992px) {
+  .modal-box {
+  flex-direction: column;
+  }
+  .modal-dialog {
+  width: 100%;
+  margin: 20px 0;
+  }
+  }
+  
+  /* Make the modal box responsive to large laptops and desktops */
+  
+  @media only screen and (min-width: 1200px) {
+  .modal-box {
+  flex-direction: row;
+  }
+  .modal-dialog {
+  width: calc(25% - 40px);
+  margin:20px;
+  }
+  }
+  
+
+
+
+

@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WDD 231: Web Frontend Development I - Azuka Anwelli Happiness</title>
+  <meta name="description" content="WDD 231: Web Frontend Development I, Azuka Anwelli Happiness, web development, HTML, CSS, JavaScript">
+  <meta name="author" content="Azuka Anwelli Happiness">
+  <link rel="stylesheet" href="styles/join.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/favicon.ico">
+  <meta property="og:title" content="join members">
+  <meta property="og:description" content="A directory of Chamber of Commerce members and businesses.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://anwelli.github.io/wdd231/chamber/images/logo.jpg">
+  <meta property="og:url" content="https://anwelli.github.io/wdd231/chamber/directory.html">
+  <meta property="fb:app_id" content="1401488693436528">
+</head>
+<body>
+<header>
+<nav class="navbar">
+<div class="logo">
+<img src="images/logo.jpg" alt="Logo">
+<h1>Azuka A. Happiness</h1>
+</div>
+<input type="checkbox" id="menu-toggle">
+<label for="menu-toggle" class="menu-icon">
+<span></span>
+<span></span>
+<span></span>
+</label>
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="directory.html">Chamber</a></li>
+<li><a href="#">Github profile</a></li>
+<li><a href="https://www.linkedin.com/in/anwelli-azuka-269a2114b">LinkedIn</a></li>
+</ul>
+</nav>
+</header>
+<main>
+    <h1>Join the Chamber</h1>
+    <form action="thankyou.html" method="get">
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName" required autocomplete="given-name">
+  
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName" required autocomplete="family-name">
+  
+      <label for="title">Title:</label>
+      <input type="text" id="title" name="title" pattern="[a-zA-Z\s-]{7,}" autocomplete="organization-title">
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required autocomplete="email" placeholder="example@example.com">
+  
+      <label for="phone">Mobile Phone:</label>
+      <input type="tel" id="phone" name="phone" required autocomplete="tel">
+  
+      <label for="businessName">Business/Organization Name:</label>
+      <input type="text" id="businessName" name="businessName" required autocomplete="organization">
+  
+      <label for="membershipLevel">Membership Level:</label>
+      <select id="membershipLevel" name="membershipLevel">
+        <option value="NP Membership">NP Membership</option>
+        <option value="Bronze Membership">Bronze Membership</option>
+        <option value="Silver Membership">Silver Membership</option>
+        <option value="Gold Membership">Gold Membership</option>
+      </select>
+  
+      <label for="description">Business/Organization Description:</label>
+      <textarea id="description" name="description"></textarea>
+  
+      <input type="hidden" id="timestamp" name="timestamp" value="<?php echo date('Y-m-d H:i:s'); ?>">
+     
+
+      <button type="submit">Join Now</button>
+    </form>
+  
+    <!-- Membership level cards -->
+<div class="membership-cards">
+    <div class="card NP-Membership">
+      <h2>NP Membership</h2>
+      <p>No fee</p>
+      <a href="#" data-toggle="modal" data-target="#npMembershipModal">Learn More</a>
+    </div>
+    <div class="card Bronze-Membership">
+      <h2>Bronze Membership</h2>
+      <p>$400 per year</p>
+      <a href="#" data-toggle="modal" data-target="#bronzeMembershipModal">Learn More</a>
+    </div>
+    <div class="card Silver-Membership">
+      <h2>Silver Membership</h2>
+      <p>$600 per year</p>
+      <a href="#" data-toggle="modal" data-target="#silverMembershipModal">Learn More</a>
+    </div>
+    <div class="card Gold-Membership">
+      <h2>Gold Membership</h2>
+      <p>$1000 per year</p>
+      <a href="#" data-toggle="modal" data-target="#goldMembershipModal">Learn More</a>
+    </div>
+  </div>
+    
+  
+    <!-- Modals -->
+    <div class="modal-box">
+        <div class="modal-dialog" id="npMembershipModal" style="display:inline-block;">
+        <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="npMembershipModalLabel">NP Membership</h5>
+        </div>
+        <div class="modal-body">
+        <p>No fee</p>
+        <ul>
+        <li>Listing in our online directory</li>
+        <li>Access to exclusive events</li>
+        <li>Opportunities for networking and collaboration</li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="modal-dialog" id="bronzeMembershipModal" style="display:inline-block;">
+        <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="bronzeMembershipModalLabel">Bronze Membership</h5>
+        </div>
+        <div class="modal-body">
+        <p>$400 per year</p>
+        <ul>
+        <li>Listing in our online directory</li>
+        <li>Access to exclusive events</li>
+        <li>Opportunities for networking and collaboration</li>
+        <li>Discounts on event sponsorships</li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="modal-dialog" id="silverMembershipModal" style="display:inline-block;">
+        <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="silverMembershipModalLabel">Silver Membership</h5>
+        </div>
+        <div class="modal-body">
+        <p>$600 per year</p>
+        <ul>
+        <li>Listing in our online directory</li>
+        <li>Access to exclusive events</li>
+        <li>Opportunities for networking and collaboration</li>
+        <li>Discounts on event sponsorships</li>
+        <li>Recognition on our website and social media</li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="modal-dialog" id="goldMembershipModal" style="display:inline-block;">
+        <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="goldMembershipModalLabel">Gold Membership</h5>
+        </div>
+        <div class="modal-body">
+        <p>$1000 per year</p>
+        <ul>
+        <li>Listing in our online directory</li>
+        <li>Access to exclusive events</li>
+        <li>Opportunities for networking and collaboration</li>
+        <li>Discounts on event sponsorships</li>
+        <li>Recognition on our website and social media</li>
+        <li>Complimentary event tickets</li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal"></button>
+        </div>
+        </div>
+        </div>
+        </div>
+        </main>        
+        <footer>
+          <div class="footer-container">
+            <div class="left-column">
+              <p>Anwell Chamber of Commerce</p>
+              <p>flat 17 Cambel Estate</p>
+              <p><a href="mailto:azukah3@gmail.com">azukah3@gmail.com</a></p>
+              <p>+234 8151605969</p>
+            </div>
+            <div class="middle-column">
+              <p>Follow me on social media:</p>
+              <ul>
+                <li><a href="https://youtube.com/@anwelliazuka?si=LPNAN72ilaqLpREt" target="_blank"><img src="images/you.png" alt="YouTube Icon" class="social-icon"></a></li>
+                <li><a href="https://twitter.com/Joshhappiness?t=dKGzdC8QlXjK8V4hLvcegg&s=09" target="_blank"><img src="images/x.png" alt="Twitter Icon" class="social-icon"></a></li>
+                <li><a href="https://www.linkedin.com/in/anwelli-azuka-269a2114b" target="_blank"><img src="images/lind.png" alt="LinkedIn Icon" class="social-icon"></a></li>
+              </ul>  
+      </div>
+      <div class="right-column">
+      <p>WDD 231 Class Project</p>
+      <p>Anwelli Happiness Azuka</p>
+      <p>&copy; 2025 Chamber of Commerce</p>
+      <p>Last Modified: <span id="last-modified"></span></p>
+      </div>
+      </div>
+      </footer>
+      <script src="scripts/directory.js"></script>
+      </body>
+      </html>
+      
