@@ -1,0 +1,188 @@
+/* Define CSS variables */
+:root {
+    --primary-color: #3498db; /* Blue */
+    --secondary-color: #f1c40f; /* Yellow */
+    --background-color: #f9f9f9; /* Light Gray */
+    --text-color: #333; /* Dark Gray */
+    --font-family: Arial, sans-serif;
+}
+
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    header {
+        background-color: #3498db;
+        color: #fff;
+        padding: 1em;
+        text-align: center;
+        display: flex;
+        justify-content: flex-start;
+        }
+        
+        header h1 {
+            font-size: 24px;
+            margin: 35px;
+            
+          
+            }
+            
+            header img {
+            width: 100px;
+            height: auto;
+            margin: 10px 0;
+            }
+            
+            
+  
+}
+.navigation {
+    background-color: #f1c40f;
+    padding: 1.0em;
+    text-align: center;
+  
+}
+
+
+.navigation a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #f1c40f;
+    color: #363232;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+    border-top: 1px solid  #f1c40f;;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .footer-container .left-column, .footer-container .right-column { width: 30%; }
+  
+  .middle-column {
+    width: 40%;
+    text-align: center;
+  }
+  
+  .social-media-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-media-icons li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .social-media-icons i {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  
+  
+  #lastModified {
+    font-size: 12px;
+    color: #ccc;
+  }
+  .middle-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    }
+    
+    .middle-column li {
+    margin-right: 20px;
+    }
+    
+    .footer-container {
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    .left-column, .right-column {
+    width: 30%;
+    }
+    
+    @media only screen and (max-width: 768px) {
+    .footer-container {
+    flex-direction: column;
+    align-items: center;
+    }
+  }
+  .social-icon {
+    width: 50px;
+    height: 50px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+
+/* Thank You Section */
+.thank-you {
+    text-align: center;
+    padding: 40px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    max-width: 600px;
+  }
+  
+  
+  .thank-you h1 {
+    font-size: 36px;
+    margin-bottom: 0.5em;
+    color: #4CAF50;
+  }
+  
+  .thank-you p {
+    font-size: 18px;
+    margin-bottom: 1em;
+  }
+  
+  .thank-you h2 {
+    font-size: 24px;
+    margin-bottom: 1em;
+    font-weight: bold;
+  }
+  
+  .thank-you h3 {
+    font-size: 20px;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+  }
+  
+  .thank-you span {
+    font-weight: bold;
+  }

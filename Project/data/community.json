@@ -1,0 +1,64 @@
+{
+    "members": [
+      {
+        "name": "John Doe",
+        "bio": "Software engineer and travel enthusiast",
+        "image": "images/software.webp"
+      },
+      {
+        "name": "Bob Smith",
+        "bio": "Graphic designer and foodie",
+        "image": "images/graphic.jpg"
+      },
+      {
+        "name": " Jane Doe",
+        "bio": "Writer and adventure-seeker",
+        "image": "images/writer.webp"
+      }
+    ],
+
+    "forumTopics": [
+      {
+        "title": "Best travel destinations for 2023",
+        "replies": 5
+      },
+      {
+        "title": "What to pack for a trip to Europe",
+        "replies": 3
+      },
+      {
+        "title": "Favorite travel books and podcasts",
+        "replies": 2
+      }
+    ],
+    "activityFeed": [
+      {
+        "text": "John Doe posted a new topic: Best travel destinations for 2023",
+        "image": "images/software.webp"
+      },
+      {
+        "text": "Jane Doe replied to a topic: What to pack for a trip to Europe",
+        "image": "images/writer.webp"
+      },
+      {
+        "text": " Bob Smith uploaded a new photo: Sunset in Paris",
+        "image": "images/graphic.jpg"
+      }
+    ],
+    "latestPhotos": [
+      {
+        "image": "images/sunset.webp",
+        "caption": "Sunset in Paris"
+      },
+      {
+        "image": "images/beach.webp",
+        "caption": "Beach in Bali"
+      },
+      {
+        "image": "images/mount.webp",
+        "caption": "Mountain landscape in Switzerland"
+      }
+    ]
+  }
+  
+  

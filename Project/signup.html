@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Nexus - Community-driven platform connecting travelers with local experts and tour guides">
+    <meta name="author" content="Anwelli Explore Guild">
+    <title>Explore Nexus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/signup.css">
+    <meta property="og:title" content="Chamber of Commerce Discover">
+    <meta property="og:description" content="A directory of Chamber of Commerce members and businesses.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://anwelli.github.io/wdd231/chamber/images/logo.jpg">
+    <meta property="og:url" content="https://anwelli.github.io/wdd231/chamber/directory.html">
+    <meta property="fb:app_id" content="1401488693436528">
+  </head>
+<body>
+    
+<header>
+    <img src="images/logo.png" alt="Explore Nexus Logo">
+    <h1>Anwelli Explore Nexus</h1>
+    </header>      
+        <nav class="navigation">
+        <a href="index.html">Home</a>
+        <a href="community.html">community</a>
+        <a href="destinations.html">destinations</a>
+        <a href="blog.html">blog</a>
+        </nav>
+        <main>
+        <div class="signup-container">
+            <h2>Sign Up</h2
+            >
+            <form id="signup-form">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"><br><br>
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password"><br><br>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone"><br><br>
+                <button type="submit">Sign Up</button>
+            </form>
+            <p>Already have an account? <a href="login.html">Log In</a></p>
+        </div>
+    
+        <script>
+            // Add event listener to signup form
+            document.getElementById('signup-form').addEventListener('submit', (e) => {
+                e.preventDefault();
+                const name = document.getElementById('name').value;
+                const email = document.getElementById('email').value;
+                const password = document.getElementById('password').value;
+                const confirmPassword = document.getElementById('confirm-password').value;
+                const phone = document.getElementById('phone').value;
+    
+                // Validate form data
+                if (name === '' || email === '' || password === '' || confirmPassword === '' || phone === '') {
+                    alert('Please fill in all fields');
+                    return;
+                }
+    
+                if (password !== confirmPassword) {
+                    alert('Passwords do not match');
+                    return;
+                }
+    
+                // Submit form data to server or local storage
+                localStorage.setItem('name', name);
+                localStorage.setItem('email', email);
+                localStorage.setItem('password', password);
+                localStorage.setItem('phone', phone);
+    
+                alert('Signup successful!');
+                window.location.href = 'index.html';
+            });
+        </script>
+    </section>
+</main>
+<footer>
+    <div class="footer-container">
+      <div class="left-column">
+        <p>Anwelli Explore Nexus </p>
+        <p>flat 17 Cambel Estate</p>
+        <p><a href="mailto:azukah3@gmail.com">azukah3@gmail.com</a></p>
+        <p>+234 8151605969</p>
+      </div>
+      <div class="middle-column">
+        <p>Follow me on social media:</p>
+        <ul>
+          <li><a href="https://youtube.com/@anwelliazuka?si=LPNAN72ilaqLpREt" target="_blank"><img src="images/you.png" alt="YouTube Icon" class="social-icon"></a></li>
+          <li><a href="https://twitter.com/Joshhappiness?t=dKGzdC8QlXjK8V4hLvcegg&s=09" target="_blank"><img src="images/x.png" alt="Twitter Icon" class="social-icon"></a></li>
+          <li><a href="https://www.linkedin.com/in/anwelli-azuka-269a2114b" target="_blank"><img src="images/lind.png" alt="LinkedIn Icon" class="social-icon"></a></li>
+        </ul>  
+</div>
+<div class="right-column">
+<p>WDD 231 Class Project</p>
+<p>Anwelli Happiness Azuka</p>
+<p>&copy; 2025 Anwelli Explore Nexus</p>
+<p>Last Modified: <span id="last-modified"></span></p>
+</div>
+</div>
+</footer>
+<script src="scripts/script.js"></script>
+</body>
+</html>

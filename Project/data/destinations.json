@@ -1,0 +1,18 @@
+
+  [
+  { "title": "Lagos", "price": 50000, "image": "lagos.jpg" },
+  { "title": "Abuja", "price": 6000, "image": "abuja.webp" },
+  { "title": "Kano", "price": 40000, "image": "kano.jpg" },
+  { "title": "Ibadan", "price": 30000, "image": "ibadan.webp" },
+  { "title": "Kaduna", "price": 37000, "image": "Idanre.webp" },
+  { "title": "Maiduguri", "price": 29000, "image": "maiduguri.jpg" },
+  { "title": "Calabar", "price": 33000, "image": "calabar.jpg" },
+  { "title": "Uyo", "price": 34000, "image": "uyo.jpg" },
+  { "title": "Owerri", "price": 36000, "image": "owerri.jpg" },
+  { "title": "Warri", "price": 38000, "image": "warri.jpg" },
+  { "title": "Benin City", "price": 35000, "image": "benin.jpg" },
+  { "title": "Port Harcourt", "price": 45000, "image": "portharcourt.jpg"},
+  { "title": "Enugu", "price": 32000, "image": "enugu.jpg" },
+  { "title": "Jos", "price": 28000, "image": "jos.jpg" },
+  { "title": "Abeokuta", "price": 31000, "image": "abeokuta.jpg" }
+]
